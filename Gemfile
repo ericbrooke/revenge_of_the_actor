@@ -46,8 +46,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
   gem 'omniauth-twitter'
   gem 'uuidtools'
 
-  Excerpt From: Ari Lerner. “Riding Rails with AngularJS.” iBooks.
-
   #permissions
   gem 'cancancan'
 
