@@ -41,8 +41,18 @@ gem 'sdoc', '~> 0.4.0', group: :doc
   #used for sign up, authentication, forgetten password
   gem 'devise'
 
+  # connections to other services
+  gem 'omniauth'
+  gem 'omniauth-twitter'
+  gem 'uuidtools'
+
+  Excerpt From: Ari Lerner. “Riding Rails with AngularJS.” iBooks.
+
   #permissions
   gem 'cancancan'
+
+  #Angular
+  gem 'angular-rails-templates'
 
   group :development, :test do
     # Call 'byebug' anywhere in the code to stop execution and get a debugger console
